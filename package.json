@@ -1,0 +1,38 @@
+{
+  "name": "Starter-Pack-Three-Js",
+  "version": "0.0.0",
+  "description": "Starter-Pack-Three-Js",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack --mode=production",
+    "test": "eslint src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SbibouJr/Starter-Pack-Three-Js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SbibouJr/Starter-Pack-Three-Js/issues"
+  },
+  "homepage": "https://github.com/SbibouJr/Starter-Pack-Three-Js#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "dependencies": {
+    "three": "^0.99.0"
+  }
+}
