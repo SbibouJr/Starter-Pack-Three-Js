@@ -31,12 +31,12 @@ class App {
     this.scene.add(light);
 
     this.camera.position.z = 5;
-    function animate() {
+    const animate = () => {
       cube.rotation.x += 0.01;
       cube.rotation.y += 0.01;
       requestAnimationFrame(animate);
       this.renderer.render(this.scene, this.camera);
-    }
+    };
     animate();
   }
 }
